@@ -71,3 +71,54 @@ body {
 .pickup-link:hover {
     border: none;
 }
+
+
+/* ========== new post ========== */
+
+.new-post {
+    max-width: 759px;
+    height: auto;
+}
+
+.np-article {
+    margin-bottom: 84.5px;
+}
+
+.np-article-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.np-article-data {
+    font-size: 14px;
+    display: flex;
+    flex-flow: row;
+    padding: 23px 0 10px 0;
+}
+
+.np-article-data p {
+    margin-right: 32px;
+}
+
+.np-article-img {
+    max-width: 100%;
+}
+
+.np-article-text {
+    padding: 19px 41px 0 51px;
+    text-align: center;
+}
+
+.np-article-text p {
+    text-align: justify;
+    margin-bottom: 29px;
+}
+
+.np-link {
+    border-bottom: 1px solid #333333;
+}
+
+.np-link:hover {
+    border: none;
+    
+}
