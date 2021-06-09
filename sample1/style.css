@@ -176,3 +176,20 @@ body {
     margin: 14px 0 30px 0;
     text-align: justify;
 }
+
+
+/* ========== archive ========== */
+
+.archive-title {
+    padding-bottom: 26px;
+}
+
+.archive-list {
+    border-top: 1px solid #777777;
+}
+
+.archive-list-item {
+    text-align: justify;
+    padding: 23px 0 23px 20px;
+    border-bottom: 1px solid #777777;
+}
