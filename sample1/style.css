@@ -10,7 +10,6 @@ body {
 
 .site-title {
     width: 145px;
-    margin-left: 216px;
     padding: 20px 0;
 }
 
@@ -20,11 +19,11 @@ body {
 }
 
 .g-nav-list {
-    margin-left: 216px;
+    display: flex;
+    flex-flow: row;
 }
 
 .g-nav-item {
-    display: inline-block;
     margin-right: 60px;
     font-size: 14px;
     color: #FFFFFF;
@@ -34,7 +33,8 @@ body {
 /* ========== main ========== */
 
 .main-container {
-    margin: 0 216px;
+    max-width: 1168px;
+    margin: 0 auto;
     padding-bottom: 138px;
     display: flex;
     flex-flow: column;
@@ -43,6 +43,7 @@ body {
 .main-wrapper {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
 }
 
 /* ========== pickup ========== */
@@ -50,6 +51,7 @@ body {
 .pickup {
     display: flex;
     flex-flow: row ;
+    justify-content: space-between;
 }
 
 .pu-article {
@@ -57,7 +59,6 @@ body {
     text-align: center;
     max-width: 374px;
     padding: 40px 0 62px 0;
-    margin-right: 23px;
 }
 
 .pickup-img {
@@ -85,7 +86,6 @@ body {
 .new-post {
     max-width: 759px;
     height: auto;
-    margin-right: 50px;
 }
 
 .np-article {
@@ -99,9 +99,9 @@ body {
 
 .np-article-data {
     font-size: 14px;
+    padding: 23px 0 10px 0;
     display: flex;
     flex-flow: row;
-    padding: 23px 0 10px 0;
 }
 
 .np-article-data p {
@@ -201,4 +201,63 @@ body {
     text-align: justify;
     padding: 23px 0 23px 20px;
     border-bottom: 1px solid #777777;
+}
+
+
+/* ========== footer ========== */
+
+.site-footer {
+    background-color: #F7F7F7;
+    padding-top: 53px;
+}
+
+.footer-wrapper {
+    max-width: 1168px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.footer-wrapper h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+/* ========== footer-about ========== */
+
+.footer-about {
+    max-width: 345px;
+}
+
+
+.footer-about-list {
+    padding-top: 15px;
+    list-style-type: disc;
+}
+
+
+.footer-about-list-item {
+    margin-bottom: 14px;
+}
+
+
+/* ========== footer-menue ========== */
+
+.footer-menue-list {
+    border-top: 1px solid #777777;
+    width: 350px;
+}
+
+.footer-menue-list-item {
+    text-align: justify;
+    padding: 19px 0 15px 20px;
+    border-bottom: 1px solid #777777;
+}
+
+/* ========== copyright ========== */
+
+.copyright {
+    text-align: center;
 }
