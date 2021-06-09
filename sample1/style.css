@@ -5,3 +5,28 @@ body {
     background-color: #FFFFFF;
     color: #333333;
 }
+
+/* ========== header ========== */
+
+.site-title {
+    width: 145px;
+    margin-left: 216px;
+    padding: 20px 0;
+}
+
+.g-nav {
+    padding: 13px 0;
+    background-color: #333333;
+}
+
+.g-nav-list {
+    margin-left: 216px;
+}
+
+.g-nav-item {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
