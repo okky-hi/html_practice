@@ -30,3 +30,44 @@ body {
     color: #FFFFFF;
 }
 
+
+/* ========== main ========== */
+
+.main-container {
+    margin: 0 216px;
+}
+
+
+/* ========== pickup ========== */
+
+.pickup {
+    display: flex;
+    flex-flow: row ;
+}
+
+.pu-article {
+    flex: 1 1 auto;
+    text-align: center;
+    max-width: 374px;
+    padding: 40px 0 62px 0;
+    margin-right: 23px;
+}
+
+.pickup-img {
+    width: 100%;
+    height: auto;
+}
+
+.pu-article-title {
+    text-align: justify;
+    margin: 23px 0 19px 0;
+    font-size: 16px;
+}
+
+.pickup-link {
+    border-bottom: 1px solid #333333;
+}
+
+.pickup-link:hover {
+    border: none;
+}
