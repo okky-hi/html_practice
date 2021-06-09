@@ -160,12 +160,12 @@ body {
 
 /* ========== ranking ========== */
 
-.ranking-title {
-    margin-bottom: 30px;
+.ranking {
+    padding-bottom: 42px;
 }
 
-.ranking-article {
-    margin-bottom: 26px;
+.ranking-title {
+    padding-bottom: 30px;
 }
 
 .ranking-img {
@@ -173,7 +173,8 @@ body {
 }
 
 .ranking-article-title {
-    margin: 14px 0 30px 0;
+    font-size: 14px;
+    padding: 14px 7px 26px 7px;
     text-align: justify;
 }
 
