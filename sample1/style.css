@@ -4,13 +4,24 @@ body {
     font-family: "Arial", "メイリオ";
     background-color: #FFFFFF;
     color: #333333;
+    padding-top: 107px;
 }
 
 /* ========== header ========== */
 
+.site-header {
+    position: fixed;
+    width: 100%;
+    height: 107px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
 .site-title {
     max-width: 1168px;
     margin: 0 auto;
+    background-color: #FFFFFF;
 }
 
 .header-logo {
