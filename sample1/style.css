@@ -77,6 +77,7 @@ body {
     text-align: justify;
     margin: 23px 0 19px 0;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .pickup-link {
@@ -235,18 +236,22 @@ body {
 /* ========== footer-about ========== */
 
 .footer-about {
-    max-width: 345px;
+    width: 30%;
 }
 
 
 .footer-about-list {
     padding-top: 15px;
-    list-style-type: disc;
+    list-style-position: inside;
 }
 
 
 .footer-about-list-item {
     margin-bottom: 14px;
+}
+
+.footer-about-list-item:before {
+    content: "\025b6";
 }
 
 
@@ -261,6 +266,7 @@ body {
     text-align: justify;
     padding: 19px 0 15px 20px;
     border-bottom: 1px solid #777777;
+    font-size: 14px;
 }
 
 /* ========== copyright ========== */
