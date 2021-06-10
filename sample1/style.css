@@ -9,6 +9,11 @@ body {
 /* ========== header ========== */
 
 .site-title {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.header-logo {
     width: 145px;
     padding: 20px 0;
 }
@@ -19,8 +24,10 @@ body {
 }
 
 .g-nav-list {
+    max-width: 1168px;
     display: flex;
     flex-flow: row;
+    margin: 0 auto;
 }
 
 .g-nav-item {
