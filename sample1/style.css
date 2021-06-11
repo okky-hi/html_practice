@@ -99,6 +99,13 @@ body {
     border: none;
 }
 
+@media screen and (max-width: 768px) { 
+    .pickup {
+        flex-flow: column;
+        padding: 0 20px;
+    }
+}
+
 
 /* ========== new post ========== */
 
