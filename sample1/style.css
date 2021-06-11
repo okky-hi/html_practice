@@ -64,6 +64,18 @@ body {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) { 
+    .main-container {
+        padding: 0 20px;
+    }
+
+    .main-wrapper {
+        flex-flow: column;
+    }
+}
+
+
+
 /* ========== pickup ========== */
 
 .pickup {
@@ -102,7 +114,6 @@ body {
 @media screen and (max-width: 768px) { 
     .pickup {
         flex-flow: column;
-        padding: 0 20px;
     }
 }
 
@@ -135,12 +146,15 @@ body {
 }
 
 .np-article-img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .np-article-text {
-    padding: 19px 41px 0 51px;
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 19px;
 }
 
 .np-article-text p {
@@ -170,6 +184,12 @@ body {
     font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+    .sub-content {
+        margin: 0 auto;
+        padding-bottom: 120px;
+    }
+}
 
 /* ========== profile ========== */
 
@@ -229,6 +249,17 @@ body {
     border-bottom: 1px solid #777777;
 }
 
+@media screen and (max-width: 768px) {
+    .archive-title {
+        text-align: center;
+    }
+
+    .archive-list-item {
+        text-align: center;
+        padding: 23px 0 20px;
+    }
+}
+
 
 /* ========== footer ========== */
 
@@ -251,6 +282,18 @@ body {
     padding-bottom: 32px;
 }
 
+@media screen and (max-width: 768px) { 
+    .site-footer {
+        padding: 0 20px;
+    }
+
+    .footer-wrapper {
+        text-align: center;
+        flex-flow: column;
+    }
+}
+
+
 /* ========== footer-about ========== */
 
 .footer-about {
@@ -272,12 +315,25 @@ body {
     content: "\025b6";
 }
 
+@media screen and (max-width: 768px) {
+    .footer-about {
+        width: 100%;
+        padding-top: 55px;
+    }
+
+    .footer-about-text {
+        text-align: justify;
+    }
+}
 
 /* ========== footer-menue ========== */
 
+.footer-menue {
+    width: 30%;
+}
+
 .footer-menue-list {
     border-top: 1px solid #777777;
-    width: 350px;
 }
 
 .footer-menue-list-item {
@@ -285,6 +341,32 @@ body {
     padding: 19px 0 15px 20px;
     border-bottom: 1px solid #777777;
     font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-menue {
+        width: 100%;
+        padding-top: 55px;
+    } 
+    
+    .footer-menue-list-item {
+        text-align: center;
+        padding: 19px 0  20px;
+    }
+}
+
+
+/* ========== twitter ========== */
+
+.twitter-timeline {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .twitter {
+        padding-top: 55px;
+    }
 }
 
 /* ========== copyright ========== */
