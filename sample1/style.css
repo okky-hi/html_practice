@@ -9,7 +9,7 @@ body {
 
 
 .wrapper { /*共通の余白用*/
-    max-width: 1168px;
+    max-width: 100%;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -34,6 +34,7 @@ body {
 }
 
 .header-logo {
+    width: 1168px;
     padding: 20px 20px;
 }
 
@@ -42,6 +43,7 @@ body {
 }
 
 .g-nav_list {
+    width: 1168px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -175,6 +177,7 @@ body {
 /* ========== pickup ========== */
 
 .pickup {
+    width: 1168px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 62px;
@@ -220,6 +223,7 @@ body {
 
 
 .content {
+    width: 1168px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 138px;
@@ -405,6 +409,7 @@ body {
 }
 
 .footer-container {
+    width: 1168px;
     padding-top: 53px;
     padding-bottom: 90px;
     display: flex;
